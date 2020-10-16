@@ -3,7 +3,7 @@ const fs = require("fs")
 const css = []
 
 function print(str) {
-    css.push(str + "\n")
+    css.push(str)
 }
 
 function write() {
@@ -16,7 +16,6 @@ function write() {
 print("body{font-family:sans-serif;font-size:18px;padding:0;margin:0}\n")
 print("input,button,select,textarea{font-family:inherit;font-size:inherit}\n")
 print("*{box-sizing:border-box;}\n")
-//print("")
 
 const dirsxy = {"x": ["left", "right"], "y": ["top", "bottom"]}
 const dirs = {"t": "top", "r": "right", "b": "bottom", "l": "left"}
