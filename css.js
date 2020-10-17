@@ -43,8 +43,10 @@ for (let action in actions) {
 print(".none{display:none;}")
 print(".block{display:block;}")
 print(".row{display:flex;flex-wrap:wrap;}")
+print(".flex{display:flex;}")
 print(".flex-center{align-items:center;}")
 print(".flex-stretch{align-items:stretch;}")
+print(".flex-col{flex-direction:column;}")
 for (let i = 5; i <= 100; i += 5) {
 	print(".col-"+i+"{flex:"+i+"%;}")
 }
