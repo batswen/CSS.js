@@ -45,6 +45,7 @@ print(".block{display:block;}")
 print(".row{display:flex;flex-wrap:wrap;}")
 print(".flex{display:flex;}")
 print(".flex-center{align-items:center;}")
+print(".just-center{justify-content:center;}")
 print(".flex-stretch{align-items:stretch;}")
 print(".flex-col{flex-direction:column;}")
 for (let i = 5; i <= 100; i += 5) {
@@ -54,6 +55,9 @@ print("@media screen and (max-width:650px) {.row{flex-direction:column;}}\n")
 
 for (let i = 5; i <= 100; i += 5) {
 	print(".w-"+i+"{width:"+i+"%;}")
+	print(".wvw-"+i+"{width:"+i+"vw;}")
+	print(".h-"+i+"{height:"+i+"%;}")
+	print(".hvh-"+i+"{height:"+i+"vh;}")
 }
 
 for (let i = 0; i <= 15; i++) {
